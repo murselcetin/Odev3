@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/arkaplanRenk"
+    tools:context=".AnasayfaFragment">
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip5"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/bebas_neue"
+        android:text="@string/hamburgerYazi"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/anaRenk"
+        app:chipIcon="@drawable/hamburger"
+        app:layout_constraintEnd_toStartOf="@+id/chip6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip6"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/bebas_neue"
+        android:text="@string/pizzaYazi"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/anaRenk"
+        app:chipIcon="@drawable/pizza"
+        app:layout_constraintEnd_toStartOf="@+id/chip7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/chip5"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip7"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/bebas_neue"
+        android:text="@string/sandwichYazi"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/anaRenk"
+        app:chipIcon="@drawable/sandwich"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/chip6"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:backgroundTint="@color/buttonRenk"
+        android:drawableTop="@drawable/burger"
+        android:fontFamily="@font/bebas_neue"
+        android:paddingTop="20dp"
+        android:text="@string/burgerYazi_1"
+        android:textColor="@color/sariRenk"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chip5" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:backgroundTint="@color/buttonRenk"
+        android:drawableTop="@drawable/burger"
+        android:fontFamily="@font/bebas_neue"
+        android:paddingTop="20dp"
+        android:text="@string/burgerYazi_2"
+        android:textColor="@color/sariRenk"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:backgroundTint="@color/buttonRenk"
+        android:drawableTop="@drawable/sandwich_2"
+        android:fontFamily="@font/bebas_neue"
+        android:paddingTop="20dp"
+        android:text="@string/sandwichYazi_1"
+        android:textColor="@color/sariRenk"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:backgroundTint="@color/buttonRenk"
+        android:drawableTop="@drawable/pizza_2"
+        android:fontFamily="@font/bebas_neue"
+        android:paddingTop="20dp"
+        android:text="@string/pizzaYazi_1"
+        android:textColor="@color/sariRenk"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/chip7" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="287dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/quando"
+        android:text="@string/aciklamaYazi"
+        android:textAlignment="textStart"
+        android:textColor="@color/koyuAnaRenk"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/koyuAnaRenk"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/bebas_neue"
+            android:text="Morpion"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="5dp"></TextView>
+
+        <SearchView
+            android:layout_width="47dp"
+            android:layout_height="44dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

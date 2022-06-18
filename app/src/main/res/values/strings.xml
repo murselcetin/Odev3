@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MORPION</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hamburgerYazi">Hamburger</string>
+    <string name="pizzaYazi">Pizza</string>
+    <string name="sandwichYazi">Sandwich</string>
+    <string name="burgerYazi_1">Mega Burger</string>
+    <string name="burgerYazi_2">Super Burger</string>
+    <string name="pizzaYazi_1">Classıc Pızza</string>
+    <string name="sandwichYazi_1">Club Sandwıch</string>
+    <string name="aciklamaYazi">What would you like to eat today?</string>
+    <string name="icerikYazi">Meat, Olive, Mushrooms, Pepper, Cheese, Garlic, Sausage ...</string>
+    <string name="fiyatYazi" >3.99 $</string>
+    <string name="ekleYazi">ADD TO CART</string>
+    <string name="favoriteYazi">Favorıte</string>
+    <string name="shareYazi">Share</string>
+</resources>
